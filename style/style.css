@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.container {
+  display: flex;
+  height: 80px;
+  border: 1px solid #000000;
+  background-color: #030046;
+}
+
+.all {
+  display: flex;
+  padding: 15px;
+}
+
+.box {
+  background-color: #030046;
+  border: 0px solid #000000;
+  color: white;
+  padding: 15px 30px;
+  transition: background-color 0.3s, transform 0.3s, color 0.3s;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50%;
+}
+
+.h:hover {
+  border: 1px solid #000000;
+  background-color: #013267;
+  transform: scale(125%);
+}
+
+
+/* HOME */
+
+#presentation{
+  text-align: center;
+}
+
+#autreProjet{
+  text-align: center;
+  display: flex;
+}
+
+#homeProjet{
+  width: 50px;
+  height: 50px;
+}
+
+  /* width: 400px;
+  height: 500px;
+  background-image: url("../bf.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed; */
