@@ -9,4 +9,5 @@ document.getElementById("myNav").innerHTML =
             + "<button onclick='window.location.href = `parcours.html`;' class='box h'>Parcours</button>"
             + "<button onclick='window.location.href = `contact.html` ;' class='box h'>Contact</button>"
         + "</div>"
-    + "</div>";
+    + "</div>"
+    + "<hr/>";

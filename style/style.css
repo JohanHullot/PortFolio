@@ -14,7 +14,7 @@ body {
   display: flex;
   height: 80px;
   border: 1px solid #000000;
-  background-color: #030046;
+  background-color: #000000;
 }
 
 .all {
@@ -23,8 +23,7 @@ body {
 }
 
 .box {
-  align-items: ;
-  background-color: #030046;
+  background-color: black;
   border: 0px solid #000000;
   color: white;
   padding: 15px 30px;
@@ -38,9 +37,10 @@ body {
   transition: background-color 0.3s, transform 0.3s, color 0.3s;
   align-self: first baseline;
   border: 1px solid #000000;
-  background-color: #013267;
+  background-color: #eaf5e5;
   transform: scale(125%);
   align-self: first baseline;
+  color: #000000;
 }
 
 
@@ -66,9 +66,8 @@ body {
 
 #cv {
   margin-left: 10%;
-  border: #000000 solid;
-  border-radius: 1%;
-  box-sizing: 8px;
+  border: #ffffff solid;
+  border-radius: 8px;
   transition: transform 0.2s, margin 0.3s;
   margin-bottom: 5%;
 }
@@ -106,20 +105,22 @@ a{
   margin-top: 5px;
   margin-bottom: 5px;
 
-  background-color: rgb(0, 50, 42);
+  background-color: #eaf5e5;
+  color: #000000;
 
-  width: 100px;
-  height: 60px;
+  width: 300px;
+  height: 40px;
   
   border: #000000 solid;
-  border-radius: 10%;
+  border-radius: 8px;
 }
 
 #cvDownload {
   text-align: center;
   margin-top: 50px;
-  background-color: rgb(14, 82, 14);
+  background-color: rgb(0, 50, 42);
   border: #000000 solid;
+  border-radius: 8px;
 }
 
 
