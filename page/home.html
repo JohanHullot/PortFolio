@@ -17,21 +17,37 @@
         include '../include/header.html';
         echo Bozo;
         ?> 
-    <form id="presentation">
+
+    <div id="presentation">
         <div id="presentation">
             <h2>Bienvenue sur mon port-folio</h2>
             <p>Je suis Johan Hullot, actuellement étudiant en 2ème année de BUT informatique</p>
         </div>
 
-    </form>
+    </div>
 
-    <form id="autresProjet">
+    <div id="autresProjet">
         <h5>Mes projets phares</h5>
 
-        <a href="./handicapy.html">Handicapy</a>
-        <a href="./climateApp.html">Mon Application sur le climat</a>
+        <div style="display: flex;">
 
-    </form>
+            <div class = "projet handicapy">
+                <a href="./handicapy.html">
+                    <div id = "layer">Handicapy</div>
+                </a>
+            </div>
+
+            <div class = "projet climateApp">
+                <a href="./climateApp.html">
+                    <div id = "layer">Mon Application sur le climat</div>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="projets"></div>
 
         
     </body>
