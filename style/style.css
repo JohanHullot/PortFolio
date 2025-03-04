@@ -51,10 +51,10 @@ body {
 
 
   border: 1px solid #000000;
-  background-color: #eaf5e5;
+  /* background-color: #eaf5e5; */
   transform: scale(125%);
 
-  color: #000000;
+  /* color: #000000; */
 }
 
 .hrHeader{
@@ -153,6 +153,31 @@ body {
 
 }
 
+/*//////////////////////*  PAGE PROJET */
+
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#presProjet{
+  margin: 25px;
+  display: flex;
+  text-align: center;
+}
+
+#paragraphe1 {
+  width: 400px;
+  overflow-wrap: break-word;
+  
+  padding: 10px;
+
+  margin-left: 15px;
+  margin-top: 65px;
+
+  border: #eaf5e5 2px solid;
+}
 
 
 
