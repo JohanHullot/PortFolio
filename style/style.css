@@ -82,9 +82,10 @@ body {
 
 }
 
-#autreProjet { 
-  display: flex;
-  text-align: center;
+#autresProjet { 
+  /* display: flex;
+  text-align: center; */
+  margin-left: 15px;
 }
 
 #homeProjet {
@@ -219,7 +220,7 @@ h3 {
   /* border: #eaf5e5 2px solid; */
 }
 
-#img1{
+#imgClimateApp{
   width: 450px;
   height: 318px;
 
@@ -228,6 +229,17 @@ h3 {
 
   background-size: 450px 318px;
   background-image: url("../image/ClimateApp.PNG");
+}
+
+#imgHandicapy{
+  width: 450px;
+  height: 318px;
+
+  margin-top: 45px;
+  margin-left: 20px;
+
+  background-size: 450px 318px;
+  background-image: url("../image/Handicapy.png");
 }
 
 #linkProjet{
@@ -262,13 +274,13 @@ h3 {
   margin-left: 10%;
   border: #ffffff solid;
   border-radius: 8px;
-  transition: transform 0.2s, margin 0.3s;
+  transition: transform 0.3s, margin 0.3s;
   margin-bottom: 30px;
 }
 
 #cv:hover {
   transform: scale(150%);
-  transition: transform 0.2s, margin 0.2s;
+  transition: transform 0.3s, margin 0.3s;
   margin-left: 120px;
   margin-top: 140px;
   margin-bottom: 160px;
@@ -288,8 +300,9 @@ a{
 
 #titleContact {
   color: #ffffff;
-  text-decoration: underline;
-  text-underline-offset: 5px;
+
+  /* text-decoration: underline;
+  text-underline-offset: 5px; */
   text-decoration-skip-ink: auto;
 }
 
@@ -340,11 +353,16 @@ a{
 }
 
 #cvDownload:hover {
-  background-color: rgb(0, 50, 42);
+  background-color: rgb(172, 20, 149);
 
   transition: background-color 0.3s;
 }
 
+#hrContact{
+  position: relative;
+  top: -12px;
+  border-top: 1px solid ;
+}
 
 
 
