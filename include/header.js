@@ -11,5 +11,4 @@ document.getElementById("myNav").innerHTML =
         + "</div>"
      
     + "</div>"
-    + "<hr class = 'hrHeader' />"
 ;

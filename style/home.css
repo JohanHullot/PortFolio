@@ -1,0 +1,33 @@
+#presentation {
+  text-align: center;
+
+}
+
+#autresProjet { 
+  /* display: flex;
+  text-align: center; */
+  margin-left: 15px;
+}
+
+#homeProjet {
+  width: 50px;
+  height: 50px;
+}
+
+.projet {
+
+  position: relative;
+
+  text-align: center;
+
+  width: 250px;
+  height: 80px;
+
+  margin: 15px;
+  padding: 15px;
+
+
+  border-radius: 8px;
+  border: #000000 solid 4px;
+  background-image: none;
+}
